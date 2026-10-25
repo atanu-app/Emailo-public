@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Install guide
+    url: https://github.com/atanu-app/Emailo-public/blob/main/INSTALL.md
+    about: Installing, first launch, updating and removing Emilo.
+  - name: Report a security problem
+    url: https://github.com/atanu-app/Emailo-public/security/advisories/new
+    about: Please report security issues privately.

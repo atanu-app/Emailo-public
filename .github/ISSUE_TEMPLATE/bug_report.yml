@@ -1,0 +1,41 @@
+name: Bug report
+description: Something in Emilo doesn't work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for reporting! Please don't include email contents, addresses or anything private. Security problems: see SECURITY.md instead."
+  - type: input
+    id: version
+    attributes:
+      label: Emilo version
+      description: Emilo › About Emilo
+      placeholder: "1.0"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "macOS 15.5"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open …
+        2. Click …
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag images here (blur anything private).
