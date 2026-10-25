@@ -2,6 +2,24 @@
 
 All notable changes to Emilo. Versions follow the app's version number (Emilo › About Emilo).
 
+## 2.0 — 2026-10-25
+
+**AI now runs on Grok by xAI, with your own key**
+- Summaries and reply drafts use **Grok** through your own **xAI API key** instead of Claude.
+- **Settings › AI** is new: paste your key (it's checked with xAI before it's saved, and kept in your Mac's Keychain), see the connection status, and pick the Grok model (grok-4.7, xAI's recommended model, by default).
+- Clear messages when something's wrong — wrong key, no credits, rate limit, model unavailable, offline — with a button that takes you straight to the setting to fix it.
+- Personal details are still replaced before anything leaves your Mac, and requests ask xAI not to store them.
+- The Anthropic key Emilo stored before is removed from your Keychain.
+
+**Also in this release**
+- Quick replies under each conversation, and "Did you mean to attach a file?" before sending.
+- Phishing warnings for lookalike senders, impersonation, deceptive links and failed sender checks.
+- Today and the Inbox put unread mail first and open on **Unread** while there's unread mail.
+
+**Known limitations**
+- This build is not yet notarized by Apple: confirm it once in System Settings › Privacy & Security (see the [install guide](INSTALL.md#first-launch)).
+- AI features need an xAI account with credits ([console.x.ai](https://console.x.ai)); each request is billed by xAI.
+
 ## 1.0 — 2026-10-25
 
 First public release.

@@ -43,6 +43,9 @@ Emilo is a Mac app for Gmail and Google Workspace. It talks directly to Gmail fr
 - Light and dark mode, Liquid Glass on macOS 26, keyboard shortcuts, a menu-bar item, Spotlight and Shortcuts.
 - Quick replies, templates, follow-up reminders ("Waiting on"), share your availability from Calendar, bills and packages at a glance.
 
+**AI, on your terms**
+- Optional **Grok by xAI** summaries and reply drafts with your own xAI API key — personal details are replaced before anything leaves your Mac, and nothing runs until you click.
+
 <p>
   <img src="docs/screenshots/reader.png" width="49%" alt="Reading a conversation">
   <img src="docs/screenshots/inbox-dark.png" width="49%" alt="All inboxes in dark mode">
@@ -61,7 +64,7 @@ Emilo checks for updates once a day and tells you when a new version is ready (S
 
 ## Privacy
 
-Emilo connects only to Google (Gmail and sign-in) and, for update checks, to this GitHub repository. Your mail, contacts and settings stay on your Mac and in your Google account. Read the full [privacy notice](PRIVACY.md).
+Emilo connects only to Google (Gmail and sign-in), to this GitHub repository for update checks, and — only when you use AI features with your own key — to xAI. Your mail, contacts and settings stay on your Mac and in your Google account. Read the full [privacy notice](PRIVACY.md).
 
 ## Help
 
