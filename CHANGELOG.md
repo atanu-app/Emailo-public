@@ -2,6 +2,16 @@
 
 All notable changes to Emilo. Versions follow the app's version number (Emilo › About Emilo).
 
+## 2.2 — 2026-10-25
+
+**Signature images fixed**
+- Logos and other images in your Gmail signature now show up for the people you email. Images stored inside the signature are sent as proper inline images, the way Gmail sends them, instead of a format Gmail and many other mail apps don't display.
+- Sending a draft you saved earlier no longer adds your signature logo as a separate attachment.
+
+**Known limitations**
+- This build is not yet notarized by Apple: confirm it once in System Settings › Privacy & Security (see the [install guide](INSTALL.md#first-launch)).
+- AI features need an xAI account with credits ([console.x.ai](https://console.x.ai)); each request is billed by xAI.
+
 ## 2.1 — 2026-10-25
 
 **Write with Grok**
