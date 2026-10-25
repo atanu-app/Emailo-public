@@ -44,7 +44,7 @@ Emilo is a Mac app for Gmail and Google Workspace. It talks directly to Gmail fr
 - Quick replies, templates, follow-up reminders ("Waiting on"), share your availability from Calendar, bills and packages at a glance.
 
 **AI, on your terms**
-- Optional **Grok by xAI** summaries and reply drafts with your own xAI API key — personal details are replaced before anything leaves your Mac, and nothing runs until you click.
+- Optional **Grok by xAI** summaries and **Write with Grok** (new emails and replies, in a natural tone) with your own xAI API key — personal details are replaced before anything leaves your Mac, and nothing runs until you click.
 
 <p>
   <img src="docs/screenshots/reader.png" width="49%" alt="Reading a conversation">

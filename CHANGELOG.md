@@ -2,6 +2,23 @@
 
 All notable changes to Emilo. Versions follow the app's version number (Emilo › About Emilo).
 
+## 2.1 — 2026-10-25
+
+**Write with Grok**
+- **Write with Grok** is in every new message and reply, not just replies. Say what you want in a few words, or tap a starting point like *Say yes*, *Politely decline* or *Ask for a meeting*.
+- Emails are written as you, to the person you're writing to: short, clear and natural, without stock phrases like "I hope this email finds you well". Anything Grok doesn't know becomes a [placeholder] instead of a guess.
+- Grok's text is ordinary text you can edit freely. **Try again** rewrites it, **Remove** puts back what you had (⌘Z undoes), **Keep** makes it yours.
+- If your Gmail signature is attached, Grok doesn't add your name a second time.
+- For a new email, only the subject, your note and first names are sent, with personal details replaced first. Email addresses are never sent.
+
+**New templates**
+- Eight ready-to-send templates: Follow-up, Meeting request, Thank you, Got it, Status update request, Reschedule, Polite decline and Sending a file.
+- **Note:** updating replaces your current template list with these eight, once. If you made your own templates, copy their text somewhere before updating.
+
+**Known limitations**
+- This build is not yet notarized by Apple: confirm it once in System Settings › Privacy & Security (see the [install guide](INSTALL.md#first-launch)).
+- AI features need an xAI account with credits ([console.x.ai](https://console.x.ai)); each request is billed by xAI.
+
 ## 2.0 — 2026-10-25
 
 **AI now runs on Grok by xAI, with your own key**

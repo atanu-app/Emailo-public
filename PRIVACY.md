@@ -5,7 +5,7 @@ Emilo is built to keep your mail between you and Google.
 **What Emilo connects to**
 - **Google** — Gmail and Google sign-in, using the Google Cloud sign-in you set up yourself.
 - **GitHub** — once a day, to check this repository for a newer version (only a small version file is downloaded; you can turn this off in Settings › General).
-- **xAI** — only if you add your own xAI API key in Settings › AI, and only when you click Summarize or Draft with Grok. Names, email addresses, phone numbers, links and long numbers are replaced with placeholders before the text is sent, and requests ask xAI not to store them. Your key stays in your Mac's keychain.
+- **xAI** — only if you add your own xAI API key in Settings › AI, and only when you click Summarize or Write with Grok. Summaries and replies send the conversation; a new email sends only its subject, your note and first names. Names, email addresses, phone numbers, links and long numbers are replaced with placeholders before the text is sent, and requests ask xAI not to store them. Your key stays in your Mac's keychain.
 - Nothing else is contacted unless you choose to: for example opening a link or loading a message's images.
 
 **What stays on your Mac**
